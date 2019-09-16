@@ -1,0 +1,21 @@
+{
+  "name": "auth-bcrypt",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/ayunas/auth-bcrypt.git",
+  "author": "Amir Yunas <ayunas@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "server": "nodemon index.js",
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "express": "^4.17.1",
+    "knex": "^0.19.4",
+    "sqlite3": "^4.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.2"
+  }
+}
